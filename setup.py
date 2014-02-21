@@ -11,7 +11,7 @@ except ImportError:
 
 INSTALL_REQUIRES = [
 	"django >=1.4",
-	"django_jinja",
+	"django_jinja==b0726105b251bed2b9a8f76e9dde4b4fefeb79ae",
 ]
 
 setup(
@@ -30,6 +30,6 @@ setup(
 	install_requires = INSTALL_REQUIRES,
 
 	dependency_links = [
-		'git+git://github.com/niwibe/django-jinja.git@b0726105b251bed2b9a8f76e9dde4b4fefeb79ae',
+		'git+git://github.com/niwibe/django-jinja.git@b0726105b251bed2b9a8f76e9dde4b4fefeb79ae#egg=django-jinja-b0726105b251bed2b9a8f76e9dde4b4fefeb79ae',
 	],
 )
