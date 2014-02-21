@@ -9,7 +9,7 @@ You can install Django Auto Ajax with [PIP](http://www.pip-installer.org/):
 pip install git+git://github.com/visipedia/django-auto-ajax
 ```
 
-Add `django-auto-ajax` to your `INSTALLED_APPS`.
+Add `django_auto_ajax` to your `INSTALLED_APPS`.
 
 Add the following to your settings:
 ```python
