@@ -1,6 +1,8 @@
 Django Auto Ajax
 ================
 
+NOTE: This application works only with Jinja2 templates using the **django_jinja** package (https://github.com/niwibe/django-jinja).
+
 ## Installation
 You can install Django Auto Ajax with [PIP](http://www.pip-installer.org/):
 ```bash
