@@ -24,7 +24,7 @@ setup(
 	author_email = "jan@jakes.pro",
 	url = "https://github.com/visipedia/django-auto-ajax",
 	license = "MIT",
-	package_dir = {'django_auto_ajax': 'django_auto_ajax'},
+	packages = ['django_auto_ajax'],
 	package_data = {'': ['LICENSE', 'README.md']},
 	include_package_data = True,
 	install_requires = INSTALL_REQUIRES,
