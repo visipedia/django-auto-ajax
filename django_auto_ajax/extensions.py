@@ -98,7 +98,7 @@ class SnippetsExtension(Extension):
 
 	def parse(self, parser):
 
-		lineno = parser.stream.next().lineno
+		lineno = next(parser.stream).lineno
 		args = [parser.parse_expression()]
 		body = parser.parse_statements(['name:endsnippet'], drop_needle=True)
 		return nodes.CallBlock(self.call_method('_snippet_support', args), [], [], body).set_lineno(lineno)
